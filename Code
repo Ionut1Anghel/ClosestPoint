@@ -89,8 +89,5 @@ int main() {
     }
 
     double minDist = closestPair(points);
-    cout << fixed << setprecision(6);
     cout << "The smallest distance is " << minDist << endl;
-
-    return 0;
 }
